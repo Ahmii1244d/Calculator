@@ -1,0 +1,84 @@
+body{
+height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+max-width: 300px;
+align-items: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+background-color: black;
+border: 4px solid #00FFFF;
+box-shadow: 0 0 60px rgba(0, 255, 255, 0.8);
+border-radius: 15px;
+    padding: 30px;
+}
+.inp{
+margin-bottom: 20px;
+width: 90%;
+height: 50px;
+font-size: 40px;
+font-weight: 50px;
+outline: none;
+text-align: right;
+border-radius: 13px;
+
+
+
+}
+.buttons{
+
+display: grid;
+grid-template-columns: repeat(1, 1fr);
+ gap: 10px;        
+}
+.buttons button{
+margin: 4px;
+    width:55px;
+    height: 60px;
+    border-radius: 5px;
+    cursor:pointer;
+}
+.op{
+background-color: #1A1A1A;
+    color: cyan;
+   
+    font-size: 23px;
+}
+.AC{
+background-color: #1A1A1A;
+    color: cyan;
+    font-size: 23px;
+
+}
+.button{
+background-color: #1A1A1A;
+color: cyan;
+font-size: 23px;
+}
+.eq-btn{
+background-color: #1A1A1A;
+    color: cyan;
+    font-size: 23px;
+
+}
+.button:hover{
+transition: 0.5s;
+    box-shadow: inset 0px 0px 30px cyan;
+}
+.op:hover{
+transition: 0.5s;
+    box-shadow: inset 0px 0px 30px cyan;
+}
+.AC:hover{
+transition: 0.5s;
+    box-shadow: inset 0px 0px 30px cyan;
+}
+.eq-btn:hover{
+transition: 0.5s;
+    box-shadow: inset 0px 0px 30px cyan;
+}
